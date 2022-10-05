@@ -27,6 +27,5 @@ class RestaurantsController < ApplicationController
     def render_not_found_response
         render json: { error: "Restaurant not found"}, status: :not_found
     end
-    
 
 end
